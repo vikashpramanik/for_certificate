@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #ffafcc; */
+}
+
+/* body{
+ 
+} */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* margin-left: 70px; */
+    height:70px;
+    width: 100%;
+    /* border: 2px solid orangered; */
+    background: #fb6262b5;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5vh;
+}
+
+.navbar .a1{
+    margin-left: 90vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 1500px;
+    /* border: 3px solid black; */
+    border-radius: 15px;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background:  linear-gradient( 75deg, #ca092c, #fb6262b5);
+    box-shadow: 10px 10px 10px rgba(11, 11, 11, 0.258);
+    /* border-right: 2px solid #ffc8dd;
+    border-bottom: 2px solid #ffc8dd; */
+}
+
+h1{
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 40vh;
+    /* border: 2px solid black; */
+}
+
+.img{
+    background-image: url("/PHOTO\ \(2\).webp");
+    height: 375px;
+    width: 290px;
+    border: none;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+header h3{
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+}
+
+.para{
+    align-items: center;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+   
+}
+
+.para p{
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fb6262b5;
+    height: 20vh;
+    flex-direction: column;
+}
+
+.column a{
+  margin-right: 10vh;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+.copyright{
+color: black;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  margin-top: 2vh;
+}
+/* Page 2 Projects Css */
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects h1{
+
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+    
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2vh;
+    width: 70vh;
+    height: 80vh;
+}
+
+.pro h3{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 30px;
+  font-style: normal;
+  margin: 2vh;
+}
+
+.pro p{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 19px;
+  font-style: normal;
+}
+
+.pro a{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+/* project images */
+
+#img1{
+    background-image: url("/amazon\ clone.jpeg");
+    height: 40vh;
+    width: 40vh;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 3vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
+    border-top: 2px solid rgba(0, 0, 0, 0.548);
+    border-left: 2px solid rgba(0, 0, 0, 0.419);
+}
+#img2{
+    background-image: url("/Duds.png");
+    height: 20vh;
+    width: 30vh;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 3vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
+    border-top: 2px solid rgba(0, 0, 0, 0.548);
+    border-left: 2px solid rgba(0, 0, 0, 0.419);
+    
+}
+#img3{
+    background-image: url("/Animation.png");
+    height: 40vh;
+    width: 40vh;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 3vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
+     border-top: 2px solid rgba(0, 0, 0, 0.548);
+    border-left: 2px solid rgba(0, 0, 0, 0.419);
+    
+}
+#img4{
+    background-image: url("/Tic\ Tac\ Toe.jpeg");
+    height: 40vh;
+    width: 40vh;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    margin-top: 3vh;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
+    border-top: 2px solid rgba(0, 0, 0, 0.548);
+    border-left: 2px solid rgba(0, 0, 0, 0.419);
+    
+}
+
+
+/* Contacts Page 3 */
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    width: 80%;
+}
+
+.child1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: auto;
+   width: 50vh;
+   flex-direction: column;
+}
+
+.ch1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3vh;
+    padding-left: 2vh;
+}
+
+.main .child1 .img1{
+    background-image: url("/PHOTO\ \(2\).webp");
+    height: 40vh;
+    width: 30vh;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-size: cover;
+}
+.child1 .img2{
+    background-image: url("/img3.png");
+    height: 40vh;
+    width: 30vh;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-left: 2vh;
+    background-size: cover;
+    
+}
+.child1 .img3{
+    background-image: url("img2.png");
+    height: 40vh;
+    width: 30vh;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-size: cover;
+    
+}
+.child1 .img4{
+    background-image: url("img1.png");
+    height: 40vh;
+    width: 30vh;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-left: 2vh;
+    background-size: cover;
+}
+
+.child2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: -30vh;
+    margin-left: 10vh;
+}
+
+.child2 h3{
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+}
+
+.child2 p{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 19px;
+  font-style: normal;
+}
+
+/* media queries */
+
+/* Styles for screens smaller than 768px (e.g., mobile devices) */
+@media screen and (max-width: 767px) {
+ header{
+    width: 80%;
+    height: auto;
+  margin-left: 10%;
+ }
+
+ img{
+     height: 40vh;
+    width: 30vh; 
+    background-size: cover;
+ }
+
+ .navbar .a1{
+    margin-left: 20vh;
+ }
+
+ footer{
+    flex-direction: column;
+ }
+
+ .column a{
+    flex-direction: column;
+    margin-right: 10px;
+ }
+
+.pro{
+    width: auto;
+    
+}
+.pro h3{
+    text-align: center;
+}
+}
+
+/* Styles for screens 768px and wider (e.g., tablets and desktops) */
+@media screen and (min-width: 768px) {
+   header{
+    width: 90%;
+    height: 98%;
+    margin-right: 10vh;
+ }
+}
+
